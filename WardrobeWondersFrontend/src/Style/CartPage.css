@@ -1,0 +1,72 @@
+/* CartPage.css */
+
+.cart-page {
+  background-color: #f0f8ff; /* AliceBlue background */
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+.cart-page h1 {
+  color: #4682B4; /* SteelBlue for the heading */
+  margin-bottom: 30px;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  background-color: #e6f7ff; /* Light sky blue for the cart item background */
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item-image {
+  max-width: 100px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.cart-item-details {
+  text-align: left;
+}
+
+.cart-item-details h2 {
+  color: #4682B4; /* SteelBlue for item name */
+  margin: 0 0 10px 0;
+}
+
+.cart-item-details p {
+  color: #00BFFF; /* Deep sky blue for price */
+  font-weight: bold;
+  margin: 0;
+}
+
+.checkout-button,
+.go-back-button {
+  background-color: #87CEEB; /* Light sky blue background */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.checkout-button:hover,
+.go-back-button:hover {
+  background-color: #00BFFF; /* Deeper sky blue on hover */
+}
+
+.checkout-button {
+  margin-right: 10px;
+}

@@ -1,0 +1,36 @@
+/* AdminNavBar.css */
+
+nav {
+  background-color: #87CEEB; /* Light sky blue background for the navbar */
+  padding: 10px;
+  border-radius: 5px;
+  /* box-shadow: 0 2px 4px rgba(55, 114, 202, 0.2); */
+}
+
+nav ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around; /* Space out the nav items */
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #ffffff; /* White text for nav links */
+  background-color: #87CEEB; /* Light sky blue background for links */
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: inline-block;
+}
+
+nav ul li a:hover,
+nav ul li a.active-link {
+  background-color: #00BFFF; /* Deeper sky blue for hover and active states */
+  color: #ffffff; /* Ensure text remains white */
+}
